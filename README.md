@@ -24,8 +24,9 @@ NOTE: - "http://127.0.0.1:5000/getModel" The model takes few moments to load for
 
 ### Vizualizations
 
-1. **Crime Trends Data Visualization**
-<img src="" width=400/>
+**1. Crime Trends Data Visualization**
+
+<img src="crime_google_trends.png" width=600/>
 
 Crime Trends Visualization is mainly aimed to give its users, quick trends of crime in the
 city. The filter of crime type and year enable the user to see various types of crime taking
@@ -36,8 +37,8 @@ Enforcement agencies can formulate new laws/rules to curb a particular type of c
 majorly occurring, as suggested by this visualization. For instance, formulating traffic laws
 in case of the prevalence of “Accident” type crime in the city.
 
+**2. Neighbourhood Data Visualization**
 
-2. **Neighbourhood Data Visualization**
 <img src="streetwise_crime.png" width=400/>
 
 After being able to view the crime count of a particular type of particular duration one may
@@ -50,6 +51,7 @@ Understanding Streetwise crime distribution further helps authorities pinpoint t
 streets of major interest, by indicating potential crime hit streets. This type of visualization can thus indicate any unlawful activity (like drug smuggling) going on, in the particular street under study.
 
 <img src="timewise_crime.png" width=400/>
+
 Knowing the crime location alone can too be very abstract or unfruitful in terms of
 controlling the crime. This is where timewise distribution of crime in a particular
 neighborhood, comes in handy. Authorities can understand which time of the day has the
@@ -57,8 +59,10 @@ maximum probability of crime occurrence. A major contribution to the crime of a 
 part of the day like midnight, for instance, can indicate the authorities when to increase
 patrolling and security of the area and thus optimizing the availability of their workforce.
 
-3. **Crime Zones Data Visualization**
+**3. Crime Zones Data Visualization**
+
 <img src="crimezone_vizualization.png" width=400/>
+
 The main objective of the crime zones data visualization is to chart the exact geospatial
 locations of crime onto a map to derive insights from it. With the help of this kind of
 geospatial visualization of crime locations not only the clustered crime zones with their
@@ -67,12 +71,15 @@ investigative team of Crime Experts can relate to the crime occurred in a partic
 which later escalated to a major event. For instance, the recent accumulation of protestors
 in Hong Kong to protest against the Chinese government. [3]
 
-4. **Crime Severity Visualization**
-<img src="crime_severity.png" width=400/>
+**4. Crime Severity Visualization**
+
+<img src="crime_severity.png" width=600/>
+
 The main objective of Heat Map visualization is to enable users to visually identify crime hotspots and zones in the city. It provides a very abstract picture of crime in the city. The user can just pan in to get further information about a particular area of the city. As naturally suggested by the redness of the particular area, authorities can straight away focus onto a particular zone/area of the city prior to even looking at other plotted visualizations our product puts forward. We also implemented the filter based on year and crime typesuggested to us in demo thus allowing the user to selectively see crime intensive areas based on selection.
 
-5. **Parallel Coordinate System**
-<img src="parallel_coordinates.png" width=400/>
+**5. Parallel Coordinate System**
+
+<img src="parallel_coordinates.png" width=700/>
 
 Having essentially a multi-dimensional time-varying data in our case, we looked into ways
 of neutralizing the complexity by having a better visual approach to understand correlation
@@ -82,8 +89,9 @@ city. The user has the flexibility to switch between the sequence of parallel ax
 range in every dimension to perform a detailed analysis of its impact on the CRIME TYPE
 attribute.
 
-6. **Sankey Diagram**
-<img src="sankey_diagram.png" width=500/>
+**6. Sankey Diagram**
+
+<img src="sankey_diagram.png" width=700/>
 
 With a lot of data being charted at one place, we visualized the neighborhood crime
 occurrences according to DAY_TYPE plotted against the crime type. Sankey Diagrams like
@@ -93,9 +101,9 @@ dragging DAY_TYPE, CRIME TYPE and NEIGHBOURHOOD attributes. These diagrams allow
 showcasing complex processes visually while allowing users to focus on a single aspect or
 resource that he/she may want to highlight.
 
+**7. Model Interpretability with LIME**
 
-7. **Model Interpretability with LIME**
-<img src="lime_model_interpretability.png" width=400/>
+<img src="lime_model_interpretability.png" width=700/>
 
 LIME (Local Interpretable Model-agnostic Explanations) stands for explaining partial parts
 of an unknown model, and it is a tool that can help us to understand and explain how a
@@ -109,53 +117,74 @@ highest weight in contrast to other features.
 ### Challenges and Bottlenecks
 
 ● Working with Dash to render web app.
+
 ● Charting every graph into single webapp.
+
 ● Integrating global intractability across all the charts.
+
 ● Overcoming Limitations of Dash for loading large amounts of data.
+
 ● Deployment across cloud options.
+
 ● Porting everything in Flask and Bringing everything together.
+
 ● Depicting Modelling Visualization into appropriate format.
+
 ● Optimizing on Modelling time efficiency.
+
 ● Transforming Vbox widget to integrate in Flask Frontend.
 
 ### References
 
 [1] "Flask", PyPI , 2019. [Online]. Available: https://pypi.org/project/Flask/. [Accessed: 23-
 Nov- 2019].
+
 [2] "Plotly Python Graphing Library", Plot.ly , 2019. [Online]. Available: https://plot.ly/python/.
 [Accessed: 29- Nov- 2019].
+
 [3] "China rebukes US for backing Hong Kong protesters", BBC News , 2019. [Online].
 Available: https://www.bbc.com/news/world-asia-china-50584928. [Accessed: 29- Nov-
 2019].
+
 [4] "The What, Why, and How of Sankey Diagrams", Medium , 2019. [Online]. Available:
 https://towardsdatascience.com/the-what-why-and-how-of-sankey-diagrams-430cbd4980b [Accessed: 29- Nov- 2019].
+
 [5] Jayaweera, I., Sajeewa, C., Liyanage, S., Wijewardane, T., Perera, I. and Wijayasiri, A.
 (2015). Crime analytics: Analysis of crimes through newspaper articles. 2015 Moratuwa
 Engineering Research Conference (MERCon).
+
 [6] Shamsuddin, N., Ali, N. and Alwee, R. (2017). An overview on crime prediction methods.
 2017 6th ICT International Student Project Conference (ICT-ISPC).
+
 [7]"Parallel Coordinates Plot", Plot.ly , 2019. [Online]. Available:
 https://plot.ly/python/parallel-coordinates-plot/. [Accessed: 01- Dec- 2019].
+
 [8]"Parallel Categories Diagram", Plot.ly , 2019. [Online]. Available:
 https://plot.ly/python/parallel-categories-diagram/. [Accessed: 01- Dec- 2019].
+
 [9]"3.2.4.3.1. sklearn.ensemble.RandomForestClassifier — scikit-learn 0.21.3
 documentation", Scikit-learn.org , 2019. [Online]. Available:
 https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifie
 r.html. [Accessed: 01- Dec- 2019].
+
 [10]"Why Random Forest is My Favorite Machine Learning Model", Medium , 2019. [Online].
 Available:
 https://towardsdatascience.com/why-random-forest-is-my-favorite-machine-learning-mode
 l-b97651fa3706. [Accessed: 01- Dec- 2019].
+
 [11]"Model Interpretation Strategies", Medium , 2019. [Online]. Available:
 https://towardsdatascience.com/explainable-artificial-intelligence-part-2-model-interpretati
 on-strategies-75d4afa6b739. [Accessed: 01- Dec- 2019].
+
 [12]"Understanding model predictions with LIME", Medium , 2019. [Online]. Available:
 https://towardsdatascience.com/understanding-model-predictions-with-lime-a582fdff3a3b.
 [Accessed: 01- Dec- 2019].
+
 [13]Elsinghorst, S. and Elsinghorst, S. (2019). Looking beyond accuracy to improve trust in
 machine learning - codecentric AG Blog. [online] codecentric AG Blog. Available at:
 https://blog.codecentric.de/en/2018/01/look-beyond-accuracy-improve-trust-machine-learn
 ing/?utm_content=65461834&utm_medium=social&utm_source=twitter [Accessed 1 Dec.
 2019].
+
 [14] S idr. (2019). Retrieved 2 December 2019, from https://www.berriart.com/sidr/ .(This
 reference was used to develop web page slider functionality and css code).
