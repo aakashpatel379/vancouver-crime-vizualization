@@ -41,7 +41,7 @@ in case of the prevalence of “Accident” type crime in the city.
 
 <img src="neighbourhood_crime.png" width=600/>
 
-<img src="streetwise_crime.png" width=500/>
+<img src="streetwise_crime.png" width=600/>
 
 After being able to view the crime count of a particular type of particular duration one may
 want to understand how exactly is crime distributed in major areas of the city. This
@@ -93,7 +93,7 @@ attribute.
 
 **6. Sankey Diagram**
 
-<img src="sankey_diagram.png" width=700/>
+<img src="sankey_diagram.png" width=800/>
 
 With a lot of data being charted at one place, we visualized the neighborhood crime
 occurrences according to DAY_TYPE plotted against the crime type. Sankey Diagrams like
