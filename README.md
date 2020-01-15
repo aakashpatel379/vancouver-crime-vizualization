@@ -39,7 +39,9 @@ in case of the prevalence of “Accident” type crime in the city.
 
 **2. Neighbourhood Data Visualization**
 
-<img src="streetwise_crime.png" width=400/>
+<img src="neighbourhood_crime.png" width=600/>
+
+<img src="streetwise_crime.png" width=500/>
 
 After being able to view the crime count of a particular type of particular duration one may
 want to understand how exactly is crime distributed in major areas of the city. This
@@ -50,7 +52,7 @@ streetwise crime distribution and time-wise crime distribution.
 Understanding Streetwise crime distribution further helps authorities pinpoint to the
 streets of major interest, by indicating potential crime hit streets. This type of visualization can thus indicate any unlawful activity (like drug smuggling) going on, in the particular street under study.
 
-<img src="timewise_crime.png" width=400/>
+<img src="timewise_crime.png" width=600/>
 
 Knowing the crime location alone can too be very abstract or unfruitful in terms of
 controlling the crime. This is where timewise distribution of crime in a particular
@@ -61,7 +63,7 @@ patrolling and security of the area and thus optimizing the availability of thei
 
 **3. Crime Zones Data Visualization**
 
-<img src="crimezone_vizualization.png" width=400/>
+<img src="crimezone_vizualization.png" width=700/>
 
 The main objective of the crime zones data visualization is to chart the exact geospatial
 locations of crime onto a map to derive insights from it. With the help of this kind of
@@ -73,7 +75,7 @@ in Hong Kong to protest against the Chinese government. [3]
 
 **4. Crime Severity Visualization**
 
-<img src="crime_severity.png" width=600/>
+<img src="crime_severity_heatmap.png" width=700/>
 
 The main objective of Heat Map visualization is to enable users to visually identify crime hotspots and zones in the city. It provides a very abstract picture of crime in the city. The user can just pan in to get further information about a particular area of the city. As naturally suggested by the redness of the particular area, authorities can straight away focus onto a particular zone/area of the city prior to even looking at other plotted visualizations our product puts forward. We also implemented the filter based on year and crime typesuggested to us in demo thus allowing the user to selectively see crime intensive areas based on selection.
 
