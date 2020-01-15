@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4be76439-f4b1-4fd9-a4b3-9a5eaba93413" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="VA_project_new" />
+  </component>
+  <component name="ProjectId" id="1TToYMDPor6q5dI8yKSkAxvVAqK" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.heatMap.html">
+    <configuration name="export.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/VA_project_new/export.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="heatMap.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/VA_project_new/static/heatMap.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="lime_instance2_logReg.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/VA_project_new/static/lime_instance2_logReg.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="lime_instance2_rf.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/VA_project_new/static/lime_instance2_rf.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="map.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/VA_project_new/static/map.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.heatMap.html" />
+        <item itemvalue="JavaScript Debug.lime_instance2_rf.html" />
+        <item itemvalue="JavaScript Debug.lime_instance2_logReg.html" />
+        <item itemvalue="JavaScript Debug.export.html" />
+        <item itemvalue="JavaScript Debug.map.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4be76439-f4b1-4fd9-a4b3-9a5eaba93413" name="Default Changelist" comment="" />
+      <created>1573493492152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573493492152</updated>
+      <workItem from="1573493498340" duration="17405000" />
+      <workItem from="1573601001303" duration="2599000" />
+      <workItem from="1573603715853" duration="8439000" />
+      <workItem from="1573652051427" duration="1209000" />
+      <workItem from="1573653973276" duration="7082000" />
+      <workItem from="1573681500591" duration="263000" />
+      <workItem from="1573682197285" duration="8610000" />
+      <workItem from="1573760330532" duration="49000" />
+      <workItem from="1573762189095" duration="3903000" />
+      <workItem from="1573777094968" duration="4355000" />
+      <workItem from="1573839644812" duration="6312000" />
+      <workItem from="1573850232449" duration="1919000" />
+      <workItem from="1573914810828" duration="3768000" />
+      <workItem from="1573934443369" duration="794000" />
+      <workItem from="1573951932820" duration="2117000" />
+      <workItem from="1574087699762" duration="871000" />
+      <workItem from="1574094778951" duration="8319000" />
+      <workItem from="1574115399544" duration="4489000" />
+      <workItem from="1574179800098" duration="4078000" />
+      <workItem from="1574205130664" duration="10346000" />
+      <workItem from="1574962447187" duration="7918000" />
+      <workItem from="1575165122277" duration="2716000" />
+      <workItem from="1575210983587" duration="1825000" />
+      <workItem from="1575239935233" duration="648000" />
+      <workItem from="1575241770896" duration="21000" />
+      <workItem from="1575245820297" duration="1107000" />
+      <workItem from="1575253249531" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/templates/crimeByNeighbourhood.html</url>
+          <line>75</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/templates/heatMap.html</url>
+          <line>62</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/VA_project_new$app.coverage" NAME="app Coverage Results" MODIFIED="1573589931897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
